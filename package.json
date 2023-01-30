@@ -1,0 +1,13 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+   "private":"true",
+   "workspaces":["packages/client","packages/sever"],
+   "scripts": {
+    "client":"yarn workspace client start",
+    "serve": "yarn wrokspace server start",
+    "client2":"yarn wrokspace client start2"
+   }
+}
